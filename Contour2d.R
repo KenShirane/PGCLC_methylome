@@ -2,7 +2,7 @@
 library(ash)
 
 ###Read a table###
-d6_EpiLC<-as.matrix(read.table("DNAme2kb_d6vsEpiLC.txt", header=T))
+d6_EpiLC <- as.matrix(read.table("DNAme2kb_d6vsEpiLC.txt", header=T))
 
 ###2d count###
 xy <- matrix (c(0, 0, 101.25, 101.25), 2, 2)
